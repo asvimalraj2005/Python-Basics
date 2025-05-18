@@ -6,4 +6,4 @@ sum = a + b           # Summing them here
 print( sum )          # Printing the sum here 
 
 
-The command line will be like C:\ this you should enter 'python filename.py argument1 argument2'
+# The command line will be like C:\ this you should enter 'python filename.py argument1 argument2'
