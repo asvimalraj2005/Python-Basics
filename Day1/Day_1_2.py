@@ -9,7 +9,7 @@
 #       return [expression]
 #
 # Example for the above syntax 
-def func(arg1, *arg2):
+def func(arg1, *arg2):                  # arg1 is used to take one argument as input; where arg2 is defined to take multiple input at once 
     print(arg1)
     for element in arg2:
         print(element)
@@ -17,3 +17,4 @@ def func(arg1, *arg2):
 #
 #
 func("Python 1.1","Python 1.2","Python 1.3","Python 1.4","Python 1.5")
+#     arg1         arg2         arg2        arg2         arg2
