@@ -44,3 +44,44 @@ if i==0 print(i)
 a=5/0 
 print(a)
 # 
+# For the above two lines of code the error will be produced like this 
+#
+# Traceback ( most recent call last )
+#  File "pyshell#5", line 1, in <module>
+#      5/0
+# ZeroDivisionError : integer division or modulo by zero 
+#
+#
+# To handle exceptions try-except blocks are used 
+# 
+# syntax for try-except are 
+# 
+# try : 
+#     statements
+# except ExceptionName : 
+#     statements 
+#
+#
+# Process of it : Step 1 First the try block is executed where it contains block of code 
+# Process 2 : If no exceptions occurs, the except block is skipped
+# Process 3 : If an exception occurs, during the execution of any statement in the try block 
+# then rest of the statements are skipped in the try block and if the except type matches exception named after the except keyword, the except block is executed and then execution continues after the try statemeny 
+# If an exception occurs which does not match the exception named in the except block then it is passed on to outer try block, then the program is terminated with the outer message 
+# 
+# Below is sample program how to handle the error where an number is divided by zero and this program with out the try-catch blocks it provokes the error as 'Division by zero' 
+# 
+# 
+def Divide(num,deno):
+    try:                            # The try method contains the code which should have to get executed 
+        quo=num/deno
+        print("Quotient",quo)
+    except ZeroDivisionError:       # If the try block provided error related to the name which is defined after the except keyword then this except block statement will be executed where as if the error is like the number could not be due to larger exponential values or anything then this error will be printed on the screen
+        print("Denominator cannot be divided by zero") 
+
+Divide(10/0)
+#
+#
+# The program output will be like "Denominator cannot be divided by zero" 
+#
+#
+# We can include multiple except blocks with related exception or error that can provided by the program when executed 
