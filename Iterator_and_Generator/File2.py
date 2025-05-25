@@ -12,11 +12,11 @@ class Iterator:                                             # Creating a class n
     def __next__(self):                                     # __next__(self)    --> self represents the object that it holds and this method 
         if self.index>=len(self.List1):                     # accessing the index value if is greater than or equal to the lenght of List1
             raise StopIteration                             # If the index exceeds the length of the List1 we raising an exception
-        Value=self.List1[self.index]                        # List1 contains the first element, second element, etc
-        self.index=self.index+1                             # Incrementing the index by 1 
+        Value=self.List1[self.index]                        # Value variable contains the first element, second element for every iteration and index variable incrementation now it stores '1' etc
+        self.index=self.index+1                             # Incrementing the index by 1 so it moves from 0 to 1 (List based indexing)
         return Value                                        # Returning the value here 
 
 List1=[1,2,3,4,5]
-it=Iterator(List1)                                          # It object is now stored with 1,2,3,4,5
+it=Iterator(List1)                                          # 'it' object is now stored with 1,2,3,4,5
 for L in it:                                                # By using the loop we are printing the elements inside the 'it' object 
     print(L,end=" ")                                        # Printing the element 
