@@ -16,25 +16,25 @@ print(functools.reduce(Sum_of_Value,List_1))        # Using the module functools
                                                     #  1  ,  2  ,  3  ,  4  ,  5  ,  6          
                                                     #  \     /     |     |     |     |
                                                     #   \   /      |     |     |     |
-                                                    #     3        |     |     |     |          Internally 1 and 2 will be added -> 3 
+                                                    #     3        |     |     |     |
                                                     #      \       |     |     |     |
                                                     #       \      |     |     |     |
                                                     #        \     |     |     |     |
                                                     #         \    |     |     |     |
                                                     #          \   |     |     |     |
-                                                    #            6       |     |     |          3 and 3 will be added -> 6
-                                                    #             \      |     |     |        
-                                                    #              \     |     |     | 
-                                                    #               \    |     |     | 
-                                                    #                 10       |     |          6 and 4 will be added -> 10          
-                                                    #                  \       |     | 
+                                                    #            6       |     |     |
+                                                    #             \      |     |     |
+                                                    #              \     |     |     |
+                                                    #               \    |     |     |
+                                                    #                 10       |     |
+                                                    #                  \       |     |
                                                     #                   \      |     | 
                                                     #                    \     |     |
-                                                    #                       15       |          10 and 5 will be added -> 15
+                                                    #                       15       |
                                                     #                       \        |
                                                     #                        \       |
                                                     #                         \      |
                                                     #                          \     |
                                                     #                           \    |
                                                     #                            \   |
-                                                    #                              21         15 and 6 will be added -> 21 
+                                                    #                              21

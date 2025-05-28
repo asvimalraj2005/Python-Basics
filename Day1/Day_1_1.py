@@ -4,9 +4,4 @@ a = int(sys.argv[1])  # Taking as the first input from the command line after ca
 b = int(sys.argv[2])  # Taking as the second input after the space of the first input 
 sum = a + b           # Summing them here
 print( sum )          # Printing the sum here 
-<<<<<<< HEAD
-=======
 
-
-# The command line will be like C:\ this you should enter 'python filename.py argument1 argument2'
->>>>>>> 401638adcf87f0c9780cc2898a8c88362efba088

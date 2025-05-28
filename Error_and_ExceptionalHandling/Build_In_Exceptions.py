@@ -26,14 +26,3 @@
 # RuntimeError                  -->    Raised when the generated error does not fall into ant of the above category 
 # NortImplementedError          -->    Raised when an abstract method that needs to be implmented in an inherited class is not implemeneted
 # TypeError                     -->    Raised when two or more data types are mixed without coercion 
-
-#  Consider the above excepts as VALUE
-# Below is the code where the VALUE should be placed
-# try :
-#    code
-# except (VALUE) :
-#    Statement or code 
-# else :
-#    Statement or code
-# finally : 
-#    Statement or code will get compulsarilly executed by the compilet 

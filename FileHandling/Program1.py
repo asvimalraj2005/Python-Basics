@@ -12,5 +12,4 @@ print("Name of the file",file.name)                                 # This line 
 print("File is closed ",file.closed)                                # This line is used to check whether the file is closed or not 
 print("File is closed by using the close method")                   # This line prints the notation of file is being closed by using the close() method 
 file.close()                                                        # close() method is used here to close the files 
-print(file.read())                                                  # After the file is being closed by using the close() method, the user tries to access the contents inside the file -> this line leads or provoke errors 
-
+print(file.read())                                                  # After the file is being closed by using the close() method, the user tries to access the contents inside the file -> this line leads or provoke errors
