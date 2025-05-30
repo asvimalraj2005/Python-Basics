@@ -25,4 +25,4 @@ print("Quotient",A/B)                                      # If the B value is p
 # Input A = 10
 # Input B = 0
 # Output Invalid B input 
->>>>>>> 6a44a1b90148d1c75203610bd109aec7566c8579
+
